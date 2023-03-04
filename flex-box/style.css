@@ -2,4 +2,50 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Tilt Neon', cursive;
+
+/*controlling items with flex target outter box first then the inner items will be altered*/
+
 }
+
+/*styling the items */
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    margin: 10px;
+}
+
+
+/*controlling items with flex target outter box first then the inner items will be altered*/
+
+.flex-container{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
