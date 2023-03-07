@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+    background: #f5f5f5;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.container{
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*column-gap: 5px;
+    row-gap: 5px;*/
+    gap: 5px;
+    /*grid-auto-rows: minmax(200px, auto);*/
+    /* grid-template-rows: repeat(3, 1fr); */
+
+}
+
+.item{
+    background-color: steelblue;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    border: skyblue 1px solid;
+
+}
+
+/* using nth child you can select specicif sections of the website if you need to target some changes one that comes to mind is replacing span and using nth child tio target certail elements. */
+
+.item:nth-of-type(2){
+    background: blue;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+
+
+    /* used this justify self to center the box within the grid instead of justify content from the parent element */
+    align-self: center;
+    justify-self: center;
+}
